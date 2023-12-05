@@ -1,0 +1,51 @@
+ * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+ } 
+ body {
+     font-size: 25px;
+     font-family: 'Times New Roman', Times, serif;
+}
+a {
+     text-decoration: none;
+}
+ ul, li {
+     list-style: none;
+ }
+
+.header {
+     height: 30px;
+     background-color: yellow;
+     margin: auto 0;
+ }
+ .header-menu {
+    text-align: center;
+}
+.header-menu-nav{
+    display: inline-block;
+}
+.header-menu-nav a {
+    color: black;
+} 
+.header-menu-nav::before{
+    content: "⁍";
+    padding: 10px;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    width: 180px;
+    height: 120px;
+    background-color: rgb(255, 255, 255);
+} 
+.dropdown:hover .dropdown-content {
+    display: block;
+} 
+.search {
+ display: inline; 
+}
+
+li {
+    position: relative;
+}
