@@ -1,0 +1,73 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url(/Roboto/Roboto-Regular.ttf);
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Roboto';
+    font-size: 18px;
+}
+
+.kyrk {
+font-size: 40px;
+}
+
+.eki {
+font-size: 25px;
+}
+
+.on {
+font-size:10px;
+}
+
+.bold {
+font-weight: 600;
+} 
+
+.cursiv  {
+font-style: italic;
+}
+
+.left {
+text-align: left;
+} 
+
+.center {
+text-align: center;
+} 
+
+.right {
+    text-align: right;
+} 
+
+.big {
+letter-spacing:10px;
+} 
+
+.veryhigh {
+letter-spacing: 20px;
+} 
+
+.small {
+letter-spacing:-2px;
+}
+
+.red {
+color: red;
+} 
+
+.blue {
+color: blue;
+} 
+
+.green {
+    color: green; 
+}
