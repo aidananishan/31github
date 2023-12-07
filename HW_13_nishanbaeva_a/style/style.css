@@ -1,0 +1,45 @@
+*{
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+}
+
+body {
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     font-size: 20px;
+}
+
+.container {
+     width: 100%;
+     margin: 0 auto;
+} 
+
+.header { 
+     display: flex; 
+     height: 70px;
+     justify-content:space-between;
+} 
+.logo {
+     text-decoration: none;
+     padding: 10px;
+} 
+a {
+     /* text-decoration: none; */
+     text-transform: uppercase;
+     color: black;
+}
+a:hover {
+     color: rgb(0, 60, 255);
+}
+.header-menu{
+     list-style: none;
+     display: flex; 
+}
+.header-menu-nav {
+     padding: 10px;
+     word-wrap: 20px;
+} 
+.login {
+     left: 100px;
+     padding: 10px;
+} 
