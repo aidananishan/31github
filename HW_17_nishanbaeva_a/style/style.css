@@ -1,0 +1,59 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}  
+.container {
+    width: 80%;
+    height: 500px;
+    margin: 0 auto;
+    border: 1px solid black;
+    align-content: space-between;
+    display: grid; 
+    grid-column-gap: 10px;
+    grid-row-gap: 10px; 
+    text-align: center; 
+    grid-template-rows: ;
+    grid-template-areas: 
+    " header point point point point area"
+    " header point point point point area"
+    " header point point point point area" 
+    " header point point point point area"
+    " header footer footer footer footer area";
+}
+.header {
+    grid-area: header;
+    background-color: gray;
+    grid-column-start: 1;
+    grid-row-start: 1;
+    grid-row-end: 6; 
+} 
+.point {
+    grid-area: point;
+    display: grid;
+    background-color: rgba(1, 73, 19, 0.548);
+    grid-column-start: 2;
+    grid-row-start: 1;
+    grid-row-end: 5;
+    grid-template-areas: 
+    "point point point point"
+    "point point point point "
+    "point point point point "
+    "point point point point "
+}
+
+.area {
+    grid-area: widget-area;
+    background-color: gray;
+    grid-column-start: 6;
+    grid-row-start: 1;
+    grid-row-end: 6;
+
+} 
+.footer {
+    grid-area: footer; 
+    background-color: gray; 
+    grid-column-start: 2;
+    grid-row-start: 4;
+    grid-row-end: 6;
+}
