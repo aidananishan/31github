@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+
+
+*{
+    padding: 0; 
+    margin: 0;
+    box-sizing: border-box;
+} 
+body {
+    font-family: 'Lato'; sans-serif;
+} 
+
+a {
+    color:black;
+    text-decoration: none;
+}  
+a:hover {
+    color:#7B1F1F;
+}
+
+.container {
+
+} 
+.header {
+ height: 80px;
+}
+
+.header-nav {
+    display: flex; 
+    justify-content: space-between;
+    list-style: none;  
+    padding: 20px; 
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+}   
+header-title text {
+    font-size: 28px;
+    line-height: 34px;
+}
+.header-nav__item {
+  
+}  
+.main {
+
+}
+.main-foto {
+ position: relative; 
+}  
+.main-foto__text{
+    font-size: 32px;
+    line-height: 40px;
+    font-weight: 500;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    position: absolute; 
+    width: 577px;
+    height: 328px;
+    left: 741px;
+    top: 357px;   
+    font-weight: 500;
+    background: rgba(255, 255, 255, 0.9);
+    box-shadow: -4px 4px 20px rgba(68, 33, 33, 0.25);   
+}
+.main-foto-text {
+    width: 372px;
+    font-size: 18px;
+    line-height: 32px;
+    letter-spacing: 0.04em;     
+}  
+.main-content{ 
+    display: grid; 
+    grid-gap: 15px;
+    grid-template-columns: 400px 125px  ;  
+    grid-template-rows: 300px 200px; 
+    grid-template-areas: 
+    "bags  shoes shoes "
+    "sungla sungla acces" 
+    "ling watch acces"; 
+    padding: 50px;
+}
+.main-content-bags{
+    grid-area: bags;
+} 
+.main-content-shoes {
+    grid-area: shoes;
+} 
+.main-content-sungla {
+    grid-area: sungla;
+} 
+.main-content-acces {
+    grid-area: acces;
+} 
+.main-content-ling {
+    grid-area: ling;
+} 
+.main-content-watch {
+    grid-area: watch;
+} 
+
+.footer {
+ background-color: #E7E9ED;
+ height: 300px; 
+ padding: 67px;
+} 
+.footer-text { 
+    text-align: center;
+} 
+.title {
+    font-size: 28px;
+} 
+.text {
+    font-size: 18px;
+    padding: 18px;
+} 
+.copy {
+   color: #919294;
+   padding: 18px;
+} 
